@@ -14,10 +14,11 @@ export function Hero() {
           alt="Roofing crew working on a residential home in Ames, Iowa" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/65 to-black/30 opacity-[0.9]" />
+        <div className="absolute inset-0 bg-black/65" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/50" />
       </div>
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto text-center">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -31,7 +32,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl text-white/85 mb-10 max-w-2xl leading-relaxed"
+            className="text-xl text-white/85 mb-10 max-w-2xl mx-auto leading-relaxed"
           >
             Protecting Your Home with Quality Craftsmanship You Can Trust. Locally owned, fully licensed, and committed to doing the job right the first time.
           </motion.p>
@@ -40,7 +41,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-col sm:flex-row items-start gap-4 mb-12"
+            className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
           >
             <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-lg font-semibold" asChild>
               <a href="#contact">Request a Free Inspection</a>
@@ -57,7 +58,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="flex flex-wrap items-center gap-6 text-sm font-semibold text-white/90"
+            className="flex flex-wrap items-center justify-center gap-6 text-sm font-semibold text-white/90"
           >
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-primary" />
