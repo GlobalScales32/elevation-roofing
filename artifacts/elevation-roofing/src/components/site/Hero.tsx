@@ -14,7 +14,7 @@ export function Hero() {
           alt="Roofing crew working on a residential home in Ames, Iowa" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/65 to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/65 to-black/30 opacity-[0.9]" />
       </div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
