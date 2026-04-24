@@ -24,7 +24,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-[1.1] tracking-tight mb-6 font-heading"
           >
-            Reliable Roofing Services in <span className="text-[#30ab70]">Ames, Iowa</span>
+            Ames' <span className="text-[#30ab70]">Trusted</span> Roofing Professionals
           </motion.h1>
 
           <motion.p 
