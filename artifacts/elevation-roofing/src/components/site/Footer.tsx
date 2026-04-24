@@ -39,7 +39,6 @@ export function Footer() {
             <ul className="space-y-3">
               <li><a href="tel:+15156867651" className="hover:text-primary transition-colors">(515) 686-7651</a></li>
               <li><a href="mailto:elevationroofing3@gmail.com" className="hover:text-primary transition-colors">elevationroofing3@gmail.com</a></li>
-              <li>314 Main Street<br />Ames, IA 50010</li>
             </ul>
           </div>
         </div>
