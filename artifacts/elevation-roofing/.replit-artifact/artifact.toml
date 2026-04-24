@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Elevation Roofing"
+version = "1.0.0"
+id = "artifacts/elevation-roofing"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25864
+
+[services.development]
+run = "pnpm --filter @workspace/elevation-roofing run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/elevation-roofing", "run", "build" ]
+publicDir = "artifacts/elevation-roofing/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25864"
+BASE_PATH = "/"

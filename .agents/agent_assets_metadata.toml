@@ -1,0 +1,32 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "zzelzQ4Pxz7wOLB9-Um4z"
+uri = "file://artifacts/elevation-roofing/src/assets/hero.png"
+type = "image"
+title = "Hero image of roofing crew"
+
+[[generated]]
+id = "lYPu3d8ZBAYwLNsHCUaG8"
+uri = "file://artifacts/elevation-roofing/src/assets/project-1.png"
+type = "image"
+title = "Project 1 new roof"
+
+[[generated]]
+id = "_auVIWmk2CHSFi68yrA-u"
+uri = "file://artifacts/elevation-roofing/src/assets/project-2.png"
+type = "image"
+title = "Project 2 roof repair"
+
+[[generated]]
+id = "4dSruO6luJVyujA_cLO2X"
+uri = "file://artifacts/elevation-roofing/src/assets/project-3.png"
+type = "image"
+title = "Project 3 storm damage"
+
+[[generated]]
+id = "yxTzxykTExoNrW4bvt8hT"
+uri = "file://artifacts/elevation-roofing/src/assets/project-4.png"
+type = "image"
+title = "Project 4 home exterior"
