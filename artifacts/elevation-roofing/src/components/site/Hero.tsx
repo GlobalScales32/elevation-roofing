@@ -16,7 +16,6 @@ export function Hero() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/65 to-black/30" />
       </div>
-
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           <motion.div 
@@ -36,7 +35,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-[1.1] tracking-tight mb-6 font-heading"
           >
-            Reliable Roofing Services in <span className="text-primary">Ames, Iowa</span>
+            Reliable Roofing Services in <span className="text-[#30ab70]">Ames, Iowa</span>
           </motion.h1>
 
           <motion.p 
