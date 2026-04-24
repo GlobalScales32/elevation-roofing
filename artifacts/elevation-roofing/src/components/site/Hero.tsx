@@ -14,7 +14,7 @@ export function Hero() {
           alt="Roofing crew working on a residential home in Ames, Iowa" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/65 to-black/30" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -34,7 +34,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-foreground leading-[1.1] tracking-tight mb-6 font-heading"
+            className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-[1.1] tracking-tight mb-6 font-heading"
           >
             Reliable Roofing Services in <span className="text-primary">Ames, Iowa</span>
           </motion.h1>
@@ -43,7 +43,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl text-foreground/80 mb-10 max-w-2xl leading-relaxed"
+            className="text-xl text-white/85 mb-10 max-w-2xl leading-relaxed"
           >
             Protecting Your Home with Quality Craftsmanship You Can Trust. Locally owned, fully licensed, and committed to doing the job right the first time.
           </motion.p>
@@ -69,7 +69,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="flex flex-wrap items-center gap-6 text-sm font-semibold text-foreground/80"
+            className="flex flex-wrap items-center gap-6 text-sm font-semibold text-white/90"
           >
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-primary" />
