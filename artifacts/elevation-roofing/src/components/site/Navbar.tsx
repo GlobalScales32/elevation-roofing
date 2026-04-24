@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Phone } from "lucide-react";
+import logoUrl from "@assets/Screenshot_2026-04-23_160835_1777017390159.png";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -17,10 +18,12 @@ export function Navbar() {
   return (
     <nav className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b border-border">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <div className="bg-primary text-primary-foreground p-2 rounded-md">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m2 22 1-1h3l9-9"/><path d="M3 21v-3l9-9"/><path d="m15 6 3.4-3.4a2.1 2.1 0 1 1 3 3L18 9l.4.4a2.1 2.1 0 1 1-3 3l-3.8-3.8a2.1 2.1 0 1 1 3-3l.4.4Z"/></svg>
-          </div>
+        <Link href="/" className="flex items-center">
+          <img
+            src={logoUrl}
+            alt="Elevation Roofing — Ames, Iowa"
+            className="h-12 md:h-14 w-auto"
+          />
         </Link>
 
         {/* Desktop Nav */}
