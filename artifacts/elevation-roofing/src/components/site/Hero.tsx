@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Phone, CheckCircle2, ShieldCheck, MapPin } from "lucide-react";
+import { Phone, CheckCircle2, ShieldCheck } from "lucide-react";
 import heroImg from "@/assets/hero.png";
 
 export function Hero() {
@@ -18,17 +18,6 @@ export function Hero() {
       </div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="flex items-center gap-2 mb-6"
-          >
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold border border-primary/20">
-              <MapPin className="w-3.5 h-3.5" /> Serving Story County
-            </span>
-          </motion.div>
-
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
