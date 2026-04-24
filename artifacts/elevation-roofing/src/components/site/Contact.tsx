@@ -179,7 +179,7 @@ export function Contact() {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground text-lg mb-1">Office Address</div>
-                    <div className="text-muted-foreground">314 Main Street<br/>Ames, IA 50010</div>
+                    <div className="text-muted-foreground">Ames, IA 50010</div>
                   </div>
                 </div>
 
