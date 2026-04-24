@@ -30,9 +30,9 @@ export function CtaBand() {
                 <a href="#contact">Request Inspection</a>
               </Button>
               <Button size="lg" variant="outline" className="w-full sm:w-auto h-14 px-8 text-lg font-semibold" asChild>
-                <a href="tel:+15155550142">
+                <a href="tel:+15156867651">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (515) 555-0142
+                  Call (515) 686-7651
                 </a>
               </Button>
             </div>

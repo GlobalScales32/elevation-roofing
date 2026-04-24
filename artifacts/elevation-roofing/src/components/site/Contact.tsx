@@ -96,7 +96,7 @@ export function Contact() {
                         <FormItem>
                           <FormLabel>Phone Number</FormLabel>
                           <FormControl>
-                            <Input placeholder="(515) 555-0142" type="tel" {...field} className="h-12 bg-muted/50" />
+                            <Input placeholder="(515) 686-7651" type="tel" {...field} className="h-12 bg-muted/50" />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -153,13 +153,13 @@ export function Contact() {
               <h3 className="text-2xl font-bold font-heading mb-8">Contact Information</h3>
               
               <div className="space-y-8">
-                <a href="tel:+15155550142" className="flex items-start gap-4 group">
+                <a href="tel:+15156867651" className="flex items-start gap-4 group">
                   <div className="bg-primary/10 p-3 rounded-full text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors shrink-0">
                     <Phone className="w-6 h-6" />
                   </div>
                   <div>
                     <div className="font-semibold text-foreground text-lg mb-1">Call Us</div>
-                    <div className="text-muted-foreground">(515) 555-0142</div>
+                    <div className="text-muted-foreground">(515) 686-7651</div>
                   </div>
                 </a>
 

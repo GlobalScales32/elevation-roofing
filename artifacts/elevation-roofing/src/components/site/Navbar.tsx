@@ -40,9 +40,9 @@ export function Navbar() {
             ))}
           </div>
           <div className="flex items-center gap-4">
-            <a href="tel:+15155550142" className="hidden lg:flex items-center gap-2 text-sm font-semibold hover:text-primary transition-colors">
+            <a href="tel:+15156867651" className="hidden lg:flex items-center gap-2 text-sm font-semibold hover:text-primary transition-colors">
               <Phone className="w-4 h-4 text-primary" />
-              (515) 555-0142
+              (515) 686-7651
             </a>
             <Button asChild className="font-semibold">
               <a href="#contact">Request Free Inspection</a>
@@ -77,11 +77,11 @@ export function Navbar() {
                   ))}
                 </div>
                 <div className="flex flex-col gap-4 pt-6 border-t border-border">
-                  <a href="tel:+15155550142" className="flex items-center gap-3 text-lg font-semibold hover:text-primary transition-colors">
+                  <a href="tel:+15156867651" className="flex items-center gap-3 text-lg font-semibold hover:text-primary transition-colors">
                     <div className="bg-primary/10 p-2 rounded-full text-primary">
                       <Phone className="w-5 h-5" />
                     </div>
-                    (515) 555-0142
+                    (515) 686-7651
                   </a>
                   <Button asChild size="lg" className="w-full font-semibold">
                     <a href="#contact" onClick={() => setIsOpen(false)}>Request Free Inspection</a>
