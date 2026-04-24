@@ -163,13 +163,13 @@ export function Contact() {
                   </div>
                 </a>
 
-                <a href="mailto:hello@elevationroofing.com" className="flex items-start gap-4 group">
+                <a href="mailto:elevationroofing3@gmail.com" className="flex items-start gap-4 group">
                   <div className="bg-primary/10 p-3 rounded-full text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors shrink-0">
                     <Mail className="w-6 h-6" />
                   </div>
                   <div>
                     <div className="font-semibold text-foreground text-lg mb-1">Email Us</div>
-                    <div className="text-muted-foreground">hello@elevationroofing.com</div>
+                    <div className="text-muted-foreground">elevationroofing3@gmail.com</div>
                   </div>
                 </a>
 

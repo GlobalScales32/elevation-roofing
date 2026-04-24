@@ -38,7 +38,7 @@ export function Footer() {
             <h4 className="text-white font-bold mb-4">Contact Info</h4>
             <ul className="space-y-3">
               <li><a href="tel:+15156867651" className="hover:text-primary transition-colors">(515) 686-7651</a></li>
-              <li><a href="mailto:hello@elevationroofing.com" className="hover:text-primary transition-colors">hello@elevationroofing.com</a></li>
+              <li><a href="mailto:elevationroofing3@gmail.com" className="hover:text-primary transition-colors">elevationroofing3@gmail.com</a></li>
               <li>314 Main Street<br />Ames, IA 50010</li>
             </ul>
           </div>
